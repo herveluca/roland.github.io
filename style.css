@@ -1,0 +1,208 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    font-family: sans-serif;
+}
+/* Début du header */
+nav{
+    list-style: none;
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+nav li{
+    padding-right: 30px;
+}
+header menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header{
+    background-color: skyblue;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-size: 100%;
+    padding-right: 2em;
+    padding-top: 3em;
+}
+header p{
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav a:hover{
+    border-bottom: 3px solid white;
+    transition: all .2s;
+}
+menu{
+    position: relative;
+    top: 15px;
+}
+h2 a:hover{
+    border-bottom: 3px solid white;
+    transition: all .2s;
+}
+menu a{
+    text-decoration: none;
+    color: white;
+}
+.lien a{
+    text-decoration: none;
+    color: white;
+}
+.lien h3{
+    text-align: center;
+    height: 10px;
+    border: 2px solid white;
+    margin: 0px 15em 25px 15em;
+}
+.lien1{
+    cursor: pointer;
+    width: 700px;
+    padding-top: 8px;
+    padding-bottom: 30px;
+}
+.lien2{
+    cursor: pointer;
+    position: relative;
+    left: 8em;
+    width: 400px;
+    padding-top: 8px;
+    padding-bottom: 25px;
+}
+.lien3{
+    cursor: pointer;    
+    position: relative;
+    left: 5.5em;
+    width: 500px;
+    padding-top: 8px;
+    padding-bottom: 25px;
+}
+.lien4{
+    cursor: pointer;
+    position: relative;
+    left: 6.8em;
+    width: 450px;
+    padding-top: 8px;
+    padding-bottom: 25px;
+}
+.lien5{
+    cursor: pointer;
+    position: relative;
+    left: 5.5em;
+    width: 500px;
+    padding-top: 8px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+}
+.lien{
+    margin-top: 60px;
+    padding-bottom: 10em;
+}
+header h1{
+    margin-top: 70px;
+}
+
+/*.lien1:hover{
+    transition: all .4s;
+}
+.lien1:hover::before{
+    width: 700px;
+}
+.lien1::before{
+    border-left: solid 2px white;
+    content: '';
+    position: absolute;
+    top: 22.6em;
+    left: 15em;
+    right: 15em;
+    height: 8%;
+    width: 5px;
+    background-color: white;
+    transition: all .4S;
+}*/
+
+/* Fin du header */
+
+/* Début de la section */
+.part1{
+    display: flex;
+}
+.elm1{
+    border-right: 0.1px solid lightgray;
+    border-bottom: 0.1px solid lightgray;
+    padding: 50px 50px 20px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.elm2{
+    border-bottom: 0.1px solid lightgray;
+    padding: 50px 50px 20px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.part2{
+    display: flex;
+    justify-content: space-between;
+}
+.elm3{
+    border-bottom: 0.1px solid lightgray;
+    /*border-right: 0.1px solid #777777;*/
+    padding: 0px 0px 0px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.8em;
+    position: relative;
+    top: 50px;
+    height: 228.5px;
+}
+.elm4{
+    display: flex;
+    justify-content: space-between;
+    border-left: 0.1px solid lightgray;;
+    border-bottom: 0.1px solid lightgray;
+    padding: 50px 0px 34px 0px;
+    line-height: 0.8em;
+}
+.toh1:hover{
+    color: #181818;
+    border-bottom: 2px solid #181818;
+    transition: all .2s;
+}
+section a:hover{
+    color: #181818;
+}
+
+/* Fin de la section */
+
+/* Section indépendante */
+.toflex{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin: 0px 20px 0px 20px;
+}
+
+/* Fin de la section indépendante */
+
+/* Début du footer */
+.toflex2{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+footer h1{
+    font-weight: lighter;
+}
+/* Fin du footer */
+.contact:hover{
+    border-bottom: 3px #181818 solid;
+    transition: all .4s;
+}
